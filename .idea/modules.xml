@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/dubbo-snjs.iml" filepath="$PROJECT_DIR$/.idea/dubbo-snjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-snjs.iml" filepath="$PROJECT_DIR$/dubbo-snjs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-snjs-api/dubbo-snjs-api.iml" filepath="$PROJECT_DIR$/dubbo-snjs-api/dubbo-snjs-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-snjs-consumer/dubbo-snjs-consumer.iml" filepath="$PROJECT_DIR$/dubbo-snjs-consumer/dubbo-snjs-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dubbo-snjs-provider/dubbo-snjs-provider.iml" filepath="$PROJECT_DIR$/dubbo-snjs-provider/dubbo-snjs-provider.iml" />
+    </modules>
+  </component>
+</project>

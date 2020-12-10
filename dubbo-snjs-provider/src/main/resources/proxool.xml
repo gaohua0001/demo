@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<something-else-entirely>
+	<proxool>
+		<alias>newgxjs</alias> 
+		<driver-url>jdbc:oracle:thin:@192.168.60.110:1521/dev</driver-url>
+		<driver-class>oracle.jdbc.OracleDriver</driver-class> 
+		<driver-properties>
+			<property name="user" value="js" />
+			<property name="password" value="js" />
+		</driver-properties> 
+		<maximum-connection-count>100</maximum-connection-count> 
+		<minimum-connection-count>10</minimum-connection-count> 
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<maximum-active-time>10800000</maximum-active-time>
+		<simultaneous-build-throttle>30</simultaneous-build-throttle> 
+		<prototype-count>5</prototype-count> 
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql>
+		<statistics>1m,15m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+		<trace>true</trace>
+	</proxool>
+	<proxool>
+		<alias>newgxjsmx</alias> 
+		<driver-url>jdbc:oracle:thin:@192.168.60.110:1521/dev</driver-url>
+		<driver-class>oracle.jdbc.OracleDriver</driver-class> 
+		<driver-properties>
+			<property name="user" value="js" />
+			<property name="password" value="js" />
+		</driver-properties> 
+		<maximum-connection-count>100</maximum-connection-count> 
+		<minimum-connection-count>10</minimum-connection-count> 
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<maximum-active-time>10800000</maximum-active-time>
+		<simultaneous-build-throttle>30</simultaneous-build-throttle> 
+		<prototype-count>5</prototype-count> 
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql>
+		<statistics>1m,15m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+		<trace>true</trace>
+	</proxool>
+	<proxool>
+		<alias>gxjs</alias> 
+		<driver-url>jdbc:oracle:thin:@192.168.60.110:1521/dev</driver-url>
+		<driver-class>oracle.jdbc.OracleDriver</driver-class> 
+		<driver-properties>
+			<property name="user" value="js" />
+			<property name="password" value="js" />
+		</driver-properties> 
+		<maximum-connection-count>100</maximum-connection-count> 
+		<minimum-connection-count>10</minimum-connection-count> 
+		<house-keeping-sleep-time>90000</house-keeping-sleep-time>
+		<maximum-active-time>10800000</maximum-active-time>
+		<simultaneous-build-throttle>30</simultaneous-build-throttle> 
+		<prototype-count>5</prototype-count> 
+		<test-before-use>true</test-before-use>
+		<house-keeping-test-sql>select sysdate from dual</house-keeping-test-sql>
+		<statistics>1m,15m,1d</statistics>
+		<statistics-log-level>DEBUG</statistics-log-level>
+		<trace>true</trace>
+	</proxool>
+</something-else-entirely> 
